@@ -1,0 +1,27 @@
+.backGround {
+  position: relative;
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1167,c_limit/6e961d74-4aa7-46b5-9890-e15d45721d34/men-s-shoes-clothing-accessories.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.cardGlass {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  padding: 1.5rem;
+}

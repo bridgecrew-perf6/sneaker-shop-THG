@@ -1,0 +1,52 @@
+{
+  "bestSeller": [
+    {
+      "id": 0,
+      "name": "Lebron 19 ",
+      "img": "https://media.finishline.com/i/finishline/DC9338_800_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 180,
+      "model": "Lebron",
+      "brand": "Nike"
+    },
+    {
+      "id": 1,
+      "name": "Harden Vol. 6",
+      "img": "https://media.finishline.com/i/finishline/GV8705_666_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 200,
+      "model": "Harden",
+      "brand": "Adidas"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Why Not Zer0.5",
+      "img": "https://media.finishline.com/i/finishline/DO8965_002_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 200,
+      "model": "Jordan",
+      "brand": "Nike"
+    },
+    {
+      "id": 3,
+      "name": "Trae Young 1",
+      "img": "https://media.finishline.com/i/finishline/GY0289_001_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 200,
+      "model": "Trae Young",
+      "brand": "Adidas"
+    },
+    {
+      "id": 4,
+      "name": "Air Zoom G.T",
+      "img": "https://media.finishline.com/i/finishline/CZ0202_400_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 200,
+      "model": "Air Zoom",
+      "brand": "Nike"
+    },
+    {
+      "id": 5,
+      "name": "Kawhi 2",
+      "img": "https://media.finishline.com/i/finishline/BBKLSLH2_100_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 200,
+      "model": "Kawhi",
+      "brand": "New Balance"
+    }
+  ]
+}
