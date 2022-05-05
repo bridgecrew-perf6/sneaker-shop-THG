@@ -5,6 +5,11 @@ const textApi = {
     const url = "/bestSeller";
     return axiosClient.get(url);
   },
+
+  getDetail() {
+    const url = "/sneakerDetail";
+    return axiosClient.get(url);
+  },
 };
 
 export default textApi;

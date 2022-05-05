@@ -17,7 +17,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Drawer from '@mui/material/Drawer';
-import logo from '../../public/assets/images/logo-cir.png';
 
 const pages = ['about', 'men'];
 const route = ['about', 'topics', ''];
@@ -69,8 +68,7 @@ function ResponsiveAppBar() {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            {/* <img src={logo} alt="logo" /> */}
-            Logo
+            <img src={require('./logo-cir.png')} alt="logo" className="w-14" />
           </Typography>
 
           {/* Begin:: Mobile */}

@@ -1,15 +1,20 @@
 function ListShoes(props: any) {
+  const selectShoes = () => {
+    props.selectShoes(props.listShoes);
+  };
+
   return (
     <div
       className="w-80 rounded overflow-hidden hover:shadow-md cursor-pointer"
       key={props.listShoes.id}
-      style={{ borderRadius: '5%' }}
+      style={{ borderRadius: "5%" }}
+      onClick={selectShoes}
     >
       <img
         className="w-80 p-5"
         src={props.listShoes.img}
         alt="Sunset in the mountains"
-        style={{ borderRadius: '15%' }}
+        style={{ borderRadius: "15%" }}
       />
       <div className="px-6 py-2">
         <div className="font-bold text-xl mb-2">{props.listShoes.name}</div>

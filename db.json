@@ -48,5 +48,120 @@
       "model": "Kawhi",
       "brand": "New Balance"
     }
+  ],
+  "sneakerDetail": [
+    {
+      "id": 0,
+      "name": "Lebron 19 ",
+      "img": "https://media.finishline.com/i/finishline/DC9338_800_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)",
+      "price": 180,
+      "model": "Lebron",
+      "brand": "Nike",
+      "color": "Mantra Orange/University Gold/University Red/Light Blue Fury - DC9338 800",
+      "sizes": [
+        {
+          "size": 3.5,
+          "outOfStock": false
+        },
+        {
+          "size": 4.0,
+          "outOfStock": false
+        },
+        {
+          "size": 4.5,
+          "outOfStock": false
+        },
+        {
+          "size": 5.0,
+          "outOfStock": false
+        },
+        {
+          "size": 5.5,
+          "outOfStock": false
+        },
+        {
+          "size": 6.0,
+          "outOfStock": false
+        },
+        {
+          "size": 6.5,
+          "outOfStock": true
+        },
+        {
+          "size": 7.0,
+          "outOfStock": false
+        },
+        {
+          "size": 7.5,
+          "outOfStock": true
+        },
+        {
+          "size": 8.0,
+          "outOfStock": false
+        },
+        {
+          "size": 8.5,
+          "outOfStock": false
+        },
+        {
+          "size": 9.0,
+          "outOfStock": true
+        },
+        {
+          "size": 9.5,
+          "outOfStock": true
+        },
+        {
+          "size": 10.0,
+          "outOfStock": true
+        },
+        {
+          "size": 10.5,
+          "outOfStock": true
+        },
+        {
+          "size": 11.0,
+          "outOfStock": true
+        },
+        {
+          "size": 11.5,
+          "outOfStock": false
+        },
+        {
+          "size": 12.0,
+          "outOfStock": false
+        },
+        {
+          "size": 12.5,
+          "outOfStock": false
+        }
+      ],
+      "moreDetailImg": [
+        {
+          "id": 0,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P1?$default$&w=671&&h=671&bg=rgb(237,237,237)"
+        },
+        {
+          "id": 1,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P2?$default$&w=670&h=670&bg=rgb(237,237,237)"
+        },
+        {
+          "id": 2,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P3?$default$&w=670&h=670&bg=rgb(237,237,237)"
+        },
+        {
+          "id": 3,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P4?$default$&w=670&h=670&bg=rgb(237,237,237)"
+        },
+        {
+          "id": 4,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P5?$default$&w=670&h=670&bg=rgb(237,237,237)"
+        },
+        {
+          "id": 5,
+          "img": "https://media.finishline.com/i/finishline/DC9338_800_P6?$default$&w=670&h=670&bg=rgb(237,237,237)"
+        }
+      ]
+    }
   ]
 }

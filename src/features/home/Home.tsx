@@ -10,6 +10,7 @@ export default class Home extends React.PureComponent<any, any> {
       listAllShoes: [],
     };
   }
+
   async componentDidMount() {
     const getAllListShoes = await textApi.getAll();
     this.setState({
