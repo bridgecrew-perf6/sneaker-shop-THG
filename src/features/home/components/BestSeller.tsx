@@ -5,6 +5,7 @@ function BestSeller(props: any) {
   let router = useHistory();
 
   const selectShoes = (e: any) => {
+    console.log(e);
     router.push("/sneaker-detail");
   };
 
