@@ -1,7 +1,8 @@
-import React from "react";
-import "./Home.scss";
-import textApi from "../../api/testApi";
-import { LandingPage, BestSeller } from "./components";
+import React from 'react';
+import './Home.scss';
+// import textApi from "../../api/testApi";
+import bestSeller from '../../api/bestSeller';
+import { LandingPage, BestSeller } from './components';
 
 export default class Home extends React.PureComponent<any, any> {
   constructor(props: any) {
@@ -12,7 +13,7 @@ export default class Home extends React.PureComponent<any, any> {
   }
 
   async componentDidMount() {
-    const getAllListShoes = await textApi.getAll();
+    const getAllListShoes = await bestSeller.getBestSeller();
     this.setState({
       listAllShoes: [...getAllListShoes.data],
     });

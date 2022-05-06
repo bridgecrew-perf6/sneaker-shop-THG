@@ -1,9 +1,9 @@
-import React from "react";
-import { Formik, Form, Field } from "formik";
-import textApi from "../api/testApi";
+import React from 'react';
+import { Formik, Form, Field } from 'formik';
+// import textApi from "../api/testApi";
 export default class Test extends React.PureComponent<any, any> {
   componentDidMount() {
-    textApi.getAll().then(({ data }) => console.log(data));
+    // textApi.getAll().then(({ data }) => console.log(data));
   }
   render(): React.ReactNode {
     return (
@@ -11,8 +11,8 @@ export default class Test extends React.PureComponent<any, any> {
         <Formik
           initialValues={{
             social: {
-              facebook: "",
-              twitter: "",
+              facebook: '',
+              twitter: '',
             },
           }}
           onSubmit={(values) => {

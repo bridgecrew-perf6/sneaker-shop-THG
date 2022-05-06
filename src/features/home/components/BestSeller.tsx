@@ -1,12 +1,12 @@
-import { ListShoes } from "../../../components";
-import { useHistory } from "react-router-dom";
+import { ListShoes } from '../../../components';
+import { useHistory } from 'react-router-dom';
 
 function BestSeller(props: any) {
   let router = useHistory();
 
   const selectShoes = (e: any) => {
-    console.log(e);
-    router.push("/sneaker-detail");
+    localStorage.setItem('id_sneaker', e.id);
+    router.push('/sneaker-detail');
   };
 
   return (
@@ -15,7 +15,7 @@ function BestSeller(props: any) {
         RECOMMENDED FOR YOU
       </p>
 
-      <div className="container mx-auto px-2 flex justify-center flex-wrap gap-x-8 gap-y-4">
+      <div className="container mx-auto px-28 flex justify-center flex-wrap gap-x-8 gap-y-4">
         {props.listShoes.map((shoes: any) => {
           return (
             <ListShoes

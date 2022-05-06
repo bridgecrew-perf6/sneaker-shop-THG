@@ -1,13 +1,8 @@
-import axiosClient from "./axiosClient";
+import axiosClient from './axiosClient';
 
 const textApi = {
-  getAll() {
-    const url = "/bestSeller";
-    return axiosClient.get(url);
-  },
-
-  getDetail() {
-    const url = "/sneakerDetail";
+  getDetail(id: number) {
+    const url = `/sneakerList/${id}`;
     return axiosClient.get(url);
   },
 };
