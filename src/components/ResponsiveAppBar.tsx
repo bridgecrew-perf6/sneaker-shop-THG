@@ -19,7 +19,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Drawer from '@mui/material/Drawer';
 
 const pages = ['ABOUT', 'MEN'];
-const route = ['about', 'topics', ''];
+const route = ['about', 'men-shoes', ''];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
