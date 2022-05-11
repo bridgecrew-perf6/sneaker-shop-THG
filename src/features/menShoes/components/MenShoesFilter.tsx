@@ -30,8 +30,19 @@ const ListSize = [
   '12.5',
 ];
 
+const Brand = [
+  'nike',
+  'adidas',
+  'newBalance',
+  'jordan',
+  'puma',
+  'reebok',
+  'underArmour',
+];
+
 function MenShoesFilter() {
   const [sizeSelected, setSizeSelected] = useState<any>({});
+  const [brandSelected, setBrandSelected] = useState<any>({});
 
   const filterSize = (sizeSelect: string) => {
     setSizeSelected(() => {
@@ -47,6 +58,20 @@ function MenShoesFilter() {
     });
   };
 
+  const filterBrand = (brandSelect: string) => {
+    setBrandSelected(() => {
+      const newBrand: any = { ...brandSelected };
+
+      if (newBrand[brandSelect]) {
+        delete newBrand[brandSelect];
+      } else {
+        newBrand[brandSelect] = brandSelect;
+      }
+
+      return { ...newBrand };
+    });
+  };
+
   return (
     <div className="w-44">
       {/* begin:: brand */}
@@ -58,7 +83,25 @@ function MenShoesFilter() {
         >
           <Typography>Brand</Typography>
         </AccordionSummary>
-        <AccordionDetails>Brand</AccordionDetails>
+        <AccordionDetails>
+          {Brand.map((brandName: string) => {
+            return (
+              <Button
+                key={brandName}
+                variant={brandSelected[brandName] ? 'contained' : 'outlined'}
+                size="small"
+                style={{ margin: '0 2px 2px 0', width: '0.5rem' }}
+                onClick={() => filterBrand(brandName)}
+              >
+                <img
+                  src={require(`./logo/${brandName}.ico`)}
+                  alt=""
+                  style={{ width: '70%' }}
+                />
+              </Button>
+            );
+          })}
+        </AccordionDetails>
       </Accordion>
       {/* end:: brand */}
 
